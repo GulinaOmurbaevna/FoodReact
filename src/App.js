@@ -1,4 +1,5 @@
  
+import About from './About';
 import './App.css';
 import Home from './components/Home';
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
  
         <Home />
+        <About />
     </div>
   );
 }
