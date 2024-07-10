@@ -3,6 +3,9 @@ import About from './About';
 import './App.css';
 import Home from './components/Home';
 import Work from './components/Work';
+import Testimonial from './components/Testimonial';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
         <Home />
         <About />
         <Work />
+        <Testimonial />
+        <Contact />
+        <Footer />
     </div>
   );
 }
